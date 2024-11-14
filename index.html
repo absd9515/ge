@@ -1,18 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
-	<link rel="stylesheet" href="style.css">
-	<script type="text/javascript">
-    document.oncontextmenu = function(){return false;}
-</script>
-</head>
+<html>
+
 <body>
-	<body bgcolor='black'>
-	<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
-  <audio src="audio.mp3" controls loop
+  <p id="demo1">아래 버튼을 눌러 문장을 바꿔보세요.</p>
+  <button onclick="myFunction1()">버튼</button>
+  <script>
+    function myFunction1() {
+      document.getElementById("demo1").innerHTML = "안녕하세요!";
+    }
+  </script>
 </body>
+
 </html>
